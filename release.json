@@ -1,0 +1,21 @@
+{
+  "version": "20.0.0",
+  "releaseDate": "2026-11-03",
+  "sourceBaseCommit": "47f86488b21f685566590d96763f13cceef7486a",
+  "sourceSnapshot": "Exact working-tree files, including the current V20 improvements; see source-manifest.json.",
+  "sourceArchive": "source-v20.zip",
+  "sourceArchiveSha256": "eb91056ad5c058cd43c04a6efe92ceb94a9e9276ae246177cf3a9e32fd76b808",
+  "sourceFileCount": 349,
+  "checks": {
+    "typecheck": "passed",
+    "build": "passed",
+    "targetedTests": {
+      "passed": 111,
+      "failed": 0
+    },
+    "fullTests": {
+      "passed": 733,
+      "failed": 10
+    }
+  }
+}
