@@ -12,8 +12,10 @@ Leidimas paruoštas 2026-11-03. Šioje saugykloje yra sukompiliuota svetainė ir
 
 Tai demonstracinis prototipas. GitHub Pages neturi serverinio autentifikavimo, bendros duomenų bazės, tikro OCR vykdymo ar laiškų siuntimo serverio. Nenaudokite konfidencialių dokumentų. Duomenys saugomi naršyklėje; atskiram testavimui rekomenduojamas atskiras naršyklės profilis. Vietiniai `.env` ir `.meso-shared-data.json` nepublikuoti.
 
-## Patikra
+## V20.0.1 dokumentų atnaujinimas
 
-Tipų patikra, gamybinis surinkimas ir 111 tikslinių testų praėjo. Visa testų patikra: 733 praėjo, 10 senesnių testavimo aplinkos klaidų (`import.meta` / CommonJS ir `useWorkspaceExpansion` priklausomybių imitacijos).
+Dokumentų sąraše galima tiesiogiai redaguoti Status, Document type, Order No., Type, Document purpose ir Accountable/Responsible person. Išlaikomi teisių, dokumentų būsenos ir apskaitinio paskirstymo saugikliai.
+
+Tipų patikra, gamybinis surinkimas ir 54 tiksliniai dokumentų testai praėjo. Naršyklėje patikrintas visų šešių laukų išsaugojimas bei pakartotinis įkėlimas su izoliuotais testiniais duomenimis.
 
 V19 ir ankstesnės saugyklos nepakeistos. Ši saugykla skirta publikavimo artefaktams; neperrašykite jos vietinės programos Git istorija.

@@ -13,7 +13,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "e5539c637cf6f2d9b673f21280aaa336aafa605430d52cd6f11ccfbd0db24c44"
+    "sha256": "18f0c6cf1b6fdcffa6db69a336279894cbc2267d7220f36c614d9e873cd38d4b"
   },
   {
     "path": "docs/reconciliation-test-mode.md",
@@ -205,7 +205,7 @@
   },
   {
     "path": "src/components/CompanyGlJournalView.tsx",
-    "sha256": "d594e76437f2bccbda057ec0f3bda17d0d3fe1b16e6000c2c697cf07f55a72cf"
+    "sha256": "e30176d62e496344ad9d09d54e494070ee54ad2c265c3f91615538857973f2ab"
   },
   {
     "path": "src/components/CompanyReconciliationView.tsx",
@@ -237,7 +237,7 @@
   },
   {
     "path": "src/components/CreateDocumentModal.tsx",
-    "sha256": "9dcb3c354c8c8a23be1361eaaa66b3b3581e98780ffb65edff0c7431340c18f5"
+    "sha256": "b49ba5c5f21a426ecddeaa5af44a2316438d624d20638b1524e7da2fc0099fe2"
   },
   {
     "path": "src/components/CreateableEmptyState.tsx",
@@ -245,7 +245,7 @@
   },
   {
     "path": "src/components/Dashboard.tsx",
-    "sha256": "1aef113966c04411c4f135bfc0c7543d19da34a2ea71b9e078b58d23ae8a83c1"
+    "sha256": "4784929c44c054c7dc6d343fb0ce506ee824a44d561a051e7a9599e914f9be3b"
   },
   {
     "path": "src/components/DashboardAttention.tsx",
@@ -268,12 +268,44 @@
     "sha256": "eaef353ce92ec19c777b429ed567576ee540205ad6c1b1ede0dc2cc644b338ff"
   },
   {
+    "path": "src/components/DocumentDeliveryDialog.tsx",
+    "sha256": "72ebf0719aa6ff3fbf56b282f870c9605cce2951429db789a967ceae189e8bb5"
+  },
+  {
     "path": "src/components/DocumentDetailPanel.tsx",
-    "sha256": "994b1d676e75745152352aa846b72f8ae533944985fce4dc2b997fd845bccbca"
+    "sha256": "029b1371423756ea6dafb5f604c50374ea3f09546baa8bc696acfd2d99b6345a"
+  },
+  {
+    "path": "src/components/DocumentInlineSelectCell.tsx",
+    "sha256": "a311846d2895f7a981a8b9a091310dc2fe2561e711ff709b251038b1bd69b86b"
+  },
+  {
+    "path": "src/components/DocumentInlineTextCell.tsx",
+    "sha256": "876b368407528928474f2a2e89e53637f8fd165dfd290fcf958f0860db8b7b21"
+  },
+  {
+    "path": "src/components/DocumentIssueDialog.tsx",
+    "sha256": "fb7132368b2add351457c786901304ad0ea50d15cb1197c219ed5b9e7528473d"
+  },
+  {
+    "path": "src/components/DocumentIssueQueue.tsx",
+    "sha256": "830c6b8afe7f4f9d3a5c30cce505b01bc25d160ad0bbcadb9cfebb3925646b65"
+  },
+  {
+    "path": "src/components/DocumentIssueReceipts.tsx",
+    "sha256": "834ee76d85cc671612dfc23e7282e5e47f211ae98e860853b384a7285a4f1a10"
+  },
+  {
+    "path": "src/components/DocumentStornoAction.tsx",
+    "sha256": "abbee980d7bc9c6a8f7d38215c6bba3b3db0097229afb9a85c855c577819ff41"
   },
   {
     "path": "src/components/Documents.tsx",
-    "sha256": "10dea5acadb4d781b61a097a43f3a32cfbd4ee8710b3e4a9a53e4aa855570670"
+    "sha256": "4c03aa9e21562ae637317430a2706b7f2d58f33287af442df9151ad268bc2bdd"
+  },
+  {
+    "path": "src/components/DropdownPortal.tsx",
+    "sha256": "ca1779f4e90c09d7b4e8d489eaf5a4912b0b032bc79fdc6ac2a7ad99366b731a"
   },
   {
     "path": "src/components/EditDataStoreView.tsx",
@@ -401,7 +433,7 @@
   },
   {
     "path": "src/components/OcrReviewView.tsx",
-    "sha256": "93a5c29759515a937b1da19ff12a0e654520942f8af17961380704c8245a1796"
+    "sha256": "9fba8c4896683153b04829bd2153ef7965597d1e759169899efea21454c2792e"
   },
   {
     "path": "src/components/OcrSearchField.tsx",
@@ -820,6 +852,42 @@
     "sha256": "9763ee7adb7b6957f07f82e480a32e768b869a8ac8d11835a9adf316df2906ee"
   },
   {
+    "path": "src/lib/documentEditAccess.ts",
+    "sha256": "a9df2fb7115adc57b05bbd851b17740b65bce6ebb5390bde716728790837d261"
+  },
+  {
+    "path": "src/lib/documentExport.ts",
+    "sha256": "ea2bd4c82607557646dd56599146daee779010dce747cd3c760cd78577bc85cd"
+  },
+  {
+    "path": "src/lib/documentInlineEditing.ts",
+    "sha256": "61d3b326b59947bc89779f8beb3c1aa02c13f71ee3205dfc97a4e99d4d1d6d8e"
+  },
+  {
+    "path": "src/lib/documentIssueAccess.ts",
+    "sha256": "74b4b62f8ec025f533759061ece5845964387946b1279162bed5a7989d2cf68e"
+  },
+  {
+    "path": "src/lib/documentIssues.ts",
+    "sha256": "c5581c6b36a5814d005b4d9ebb8b6b5ca4f85baf7ff98bcdcc1c989f132110c1"
+  },
+  {
+    "path": "src/lib/documentProcessingStatus.ts",
+    "sha256": "70e3cae277fa802b148126cd274e46b340cb7b0d99f7e7a38eccaf9c1ed83e25"
+  },
+  {
+    "path": "src/lib/documentStorno.ts",
+    "sha256": "00fc586fa6cd1e7f4f794149d99cfc83de5a4f17bd8595039014074a1d99f5f6"
+  },
+  {
+    "path": "src/lib/documentStornoAccess.ts",
+    "sha256": "2f4632ad11b58593c08fc9735191057a558d1588e9a6baf77d820b47d17f6253"
+  },
+  {
+    "path": "src/lib/dropdownPosition.ts",
+    "sha256": "4f64d2200b5c35b6db4cf32b0f8dfe0b8e180d0f73575ffb58f02f5be93b045a"
+  },
+  {
     "path": "src/lib/externalRoleUserStatus.ts",
     "sha256": "f24d67b1b4618531ebb3b12dd8d53beb6962db9283452a54e552b577bd6e2135"
   },
@@ -997,7 +1065,7 @@
   },
   {
     "path": "src/lib/supabase.ts",
-    "sha256": "f89390388d04405cdad040cdba2006c1bb462ae9a2f64f7df88f1602d48f8403"
+    "sha256": "dd0ebc61d29de05d1dd5ba98e0674e57237631112eadf8db4c55421a7eb4f9c3"
   },
   {
     "path": "src/lib/tablePaging.ts",
@@ -1148,6 +1216,30 @@
     "sha256": "abbee4bad9bb470bff212a5af3884f17f16eddced522ceddfa6759abfef558eb"
   },
   {
+    "path": "tests/document-dropdowns.test.mjs",
+    "sha256": "2126888d980e4d1c82df1b79a46a3f5c4fd2f7cea26e55d6866bdb0a8aa65327"
+  },
+  {
+    "path": "tests/document-export.test.mjs",
+    "sha256": "db7784456a19d94bba0da368492294ea584bab5e6200b4331de6d899d3079d59"
+  },
+  {
+    "path": "tests/document-inline-editing.test.mjs",
+    "sha256": "1cc61d8785811b0944ee44b96cb491e999638aad572e60281396e6a00f9dd8ac"
+  },
+  {
+    "path": "tests/document-issues.test.mjs",
+    "sha256": "b71901c4c4fa8a622944397b00edd30bf36fdb54497bfbe63113b16ff153e9b7"
+  },
+  {
+    "path": "tests/document-processing-status.test.mjs",
+    "sha256": "7addbfdde7064ae4c5525063f518462298cef5f93f00e43aa232ff29df548407"
+  },
+  {
+    "path": "tests/document-storno.test.mjs",
+    "sha256": "6c18cb90e441e32f4b03007c0dee9604c6887435aee1d5c65c0152471c573878"
+  },
+  {
     "path": "tests/document-type-navigation.test.mjs",
     "sha256": "71af5e094b4aaaab744884e5ce379abefe8aea89b475ebdea593fcfac5e29dda"
   },
@@ -1213,7 +1305,7 @@
   },
   {
     "path": "tests/notification-bell.test.mjs",
-    "sha256": "505ceb62a60856bab4f5afe97db4a44b2a466d82e0f8954f875d25ef86e928b1"
+    "sha256": "f3186d5091489937305d268a5b2e11a941788556f2cd4673d396fecddafacbf9"
   },
   {
     "path": "tests/notification-chat-navigation.test.mjs",

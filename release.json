@@ -1,21 +1,24 @@
 {
-  "version": "20.0.0",
+  "version": "20.0.1",
   "releaseDate": "2026-11-03",
   "sourceBaseCommit": "47f86488b21f685566590d96763f13cceef7486a",
-  "sourceSnapshot": "Exact working-tree files, including the current V20 improvements; see source-manifest.json.",
+  "sourceSnapshot": "Exact V20 working-tree snapshot; local source history is not published to this artifact repository.",
   "sourceArchive": "source-v20.zip",
-  "sourceArchiveSha256": "eb91056ad5c058cd43c04a6efe92ceb94a9e9276ae246177cf3a9e32fd76b808",
-  "sourceFileCount": 349,
+  "sourceArchiveSha256": "4eaa5850257d34f35d0902be5be6e0e0d09bd3c2fac51261c226e605c5f4518f",
+  "sourceFileCount": 372,
+  "previousArtifactCommit": "4ad762ae62a502f32524320c15a2f9f59a9a257c",
+  "changes": [
+    "Direct list editing: Status, Document type, Order No., Type, Document purpose, Accountable/Responsible person.",
+    "Document-level edits remain available for multiple accounting allocations; permissions, status protections and history are retained.",
+    "Includes the prepared V20 document issue, Storno and separate transfer/export workflows."
+  ],
   "checks": {
     "typecheck": "passed",
     "build": "passed",
     "targetedTests": {
-      "passed": 111,
+      "passed": 54,
       "failed": 0
     },
-    "fullTests": {
-      "passed": 733,
-      "failed": 10
-    }
+    "browser": "All six fields saved and reloaded in an isolated fixture without modifying allocation rows."
   }
 }
